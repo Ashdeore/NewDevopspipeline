@@ -2,7 +2,7 @@ pipeline {
     agent any
     
     environment {
-        DOCKER_IMAGE = "yourdockerhubusername/my-node-app"
+        DOCKER_IMAGE = "s223477951/my-node-app"
     }
     
     stages {
@@ -10,7 +10,7 @@ pipeline {
             steps {
                 script {
                     // Pull the latest code
-                    git 'https://github.com/yourusername/your-repo.git'
+                    git 'https://github.com/Ashdeore/NewDevopspipeline.git'
                 }
             }
         }
